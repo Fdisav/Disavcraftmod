@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraftmod:block/stone_1",
+    "up": "disavcraftmod:block/stone_1",
+    "north": "disavcraftmod:block/stone_1",
+    "east": "disavcraftmod:block/stone_1",
+    "south": "disavcraftmod:block/stone_1",
+    "west": "disavcraftmod:block/stone_1",
+    "particle": "disavcraftmod:block/stone_1"
+  },
+  "render_type": "solid"
+}
