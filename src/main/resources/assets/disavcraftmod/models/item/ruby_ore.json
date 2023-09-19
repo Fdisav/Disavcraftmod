@@ -1,5 +1,5 @@
 {
-  "parent": "disavcraftmod:block/stone_1",
+  "parent": "disavcraftmod:block/ruby_ore",
   "display": {
     "thirdperson": {
       "rotation": [

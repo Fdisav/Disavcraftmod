@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.disavcraftmod.init.DisavcraftmodModTabs;
 import net.mcreator.disavcraftmod.init.DisavcraftmodModItems;
+import net.mcreator.disavcraftmod.init.DisavcraftmodModFeatures;
 import net.mcreator.disavcraftmod.init.DisavcraftmodModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +55,9 @@ public class DisavcraftmodMod {
 		DisavcraftmodModBlocks.REGISTRY.register(bus);
 
 		DisavcraftmodModItems.REGISTRY.register(bus);
+
+		DisavcraftmodModTabs.REGISTRY.register(bus);
+		DisavcraftmodModFeatures.REGISTRY.register(bus);
 
 	}
 

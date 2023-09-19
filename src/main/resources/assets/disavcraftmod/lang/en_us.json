@@ -1,3 +1,14 @@
 {
-  "block.disavcraftmod.stone_1": "Stone"
+  "block.disavcraftmod.ruby_block": "Block of Ruby",
+  "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
+  "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
+  "block.disavcraftmod.ruby_ore": "Ruby Ore",
+  "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
+  "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
+  "item.disavcraftmod.ruby_sword": "Ruby Sword",
+  "item.disavcraftmod.ruby": "Ruby",
+  "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
+  "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
+  "item.disavcraftmod.ruby_axe": "Ruby Axe"
 }
