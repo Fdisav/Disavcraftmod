@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "disavcraft:ruby"
+    },
+    "1": {
+      "item": "disavcraft:ruby"
+    },
+    "2": {
+      "item": "disavcraft:ruby"
+    },
+    "3": {
+      "item": "disavcraft:ruby"
+    },
+    "4": {
+      "item": "disavcraft:ruby"
+    },
+    "5": {
+      "item": "disavcraft:ruby"
+    },
+    "6": {
+      "item": "disavcraft:ruby"
+    },
+    "7": {
+      "item": "disavcraft:ruby"
+    },
+    "8": {
+      "item": "disavcraft:ruby"
+    }
+  },
+  "result": {
+    "item": "disavcraft:ruby_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "disavcraft:ruby"
+    },
+    "2": {
+      "item": "disavcraft:ruby"
+    },
+    "3": {
+      "item": "disavcraft:ruby"
+    },
+    "5": {
+      "item": "disavcraft:ruby"
+    }
+  },
+  "result": {
+    "item": "disavcraft:ruby_armor_boots",
+    "count": 1
+  }
+}

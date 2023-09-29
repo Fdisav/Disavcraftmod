@@ -7,6 +7,8 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.disavcraftmod.init.DisavcraftModItems;
+
 public class RubyPickaxeItem extends PickaxeItem {
 	public RubyPickaxeItem() {
 		super(new Tier() {
@@ -31,7 +33,7 @@ public class RubyPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DisavcraftmodModItems.RUBY.get()));
+				return Ingredient.of(new ItemStack(DisavcraftModItems.RUBY.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

@@ -1,0 +1,9 @@
+{
+  "parent": "disavcraft:custom/red_pillar",
+  "textures": {
+    "all": "disavcraft:block/red_pillar",
+    "particle": "disavcraft:block/red_pillar",
+    "0": "disavcraft:block/red_pillar"
+  },
+  "render_type": "solid"
+}

@@ -7,6 +7,8 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.disavcraftmod.init.DisavcraftModItems;
+
 public class RubyShovelItem extends ShovelItem {
 	public RubyShovelItem() {
 		super(new Tier() {
@@ -31,7 +33,7 @@ public class RubyShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DisavcraftmodModItems.RUBY.get()));
+				return Ingredient.of(new ItemStack(DisavcraftModItems.RUBY.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

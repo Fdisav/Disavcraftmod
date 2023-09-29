@@ -3,14 +3,14 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="disavcraftmod"
+modId="disavcraft"
 version="1.0.0"
 displayName="DisavCraftMod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Arca, MCreator"
 
-[[dependencies.disavcraftmod]]
+[[dependencies.disavcraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"

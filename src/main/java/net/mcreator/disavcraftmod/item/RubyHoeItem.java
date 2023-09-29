@@ -7,6 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
+import net.mcreator.disavcraftmod.init.DisavcraftModItems;
+
 public class RubyHoeItem extends HoeItem {
 	public RubyHoeItem() {
 		super(new Tier() {
@@ -31,7 +33,7 @@ public class RubyHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DisavcraftmodModItems.RUBY.get()));
+				return Ingredient.of(new ItemStack(DisavcraftModItems.RUBY.get()));
 			}
 		}, 0, -3f, new Item.Properties());
 	}

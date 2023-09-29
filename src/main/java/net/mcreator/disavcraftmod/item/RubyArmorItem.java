@@ -11,6 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 
+import net.mcreator.disavcraftmod.init.DisavcraftModItems;
+
 public abstract class RubyArmorItem extends ArmorItem {
 	public RubyArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
@@ -36,7 +38,7 @@ public abstract class RubyArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DisavcraftmodModItems.RUBY.get()));
+				return Ingredient.of(new ItemStack(DisavcraftModItems.RUBY.get()));
 			}
 
 			@Override
@@ -63,7 +65,7 @@ public abstract class RubyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "disavcraftmod:textures/models/armor/ruby_layer_1.png";
+			return "disavcraft:textures/models/armor/ruby_layer_1.png";
 		}
 	}
 
@@ -74,7 +76,7 @@ public abstract class RubyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "disavcraftmod:textures/models/armor/ruby_layer_1.png";
+			return "disavcraft:textures/models/armor/ruby_layer_1.png";
 		}
 	}
 
@@ -85,7 +87,7 @@ public abstract class RubyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "disavcraftmod:textures/models/armor/ruby_layer_2.png";
+			return "disavcraft:textures/models/armor/ruby_layer_2.png";
 		}
 	}
 
@@ -96,7 +98,7 @@ public abstract class RubyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "disavcraftmod:textures/models/armor/ruby_layer_1.png";
+			return "disavcraft:textures/models/armor/ruby_layer_1.png";
 		}
 	}
 }

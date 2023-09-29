@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "disavcraftmod:ruby_block",
-    "disavcraftmod:ruby_ore"
+    "disavcraft:ruby_block",
+    "disavcraft:ruby_ore"
   ]
 }

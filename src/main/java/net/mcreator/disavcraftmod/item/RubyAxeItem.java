@@ -7,6 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.disavcraftmod.init.DisavcraftModItems;
+
 public class RubyAxeItem extends AxeItem {
 	public RubyAxeItem() {
 		super(new Tier() {
@@ -31,7 +33,7 @@ public class RubyAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DisavcraftmodModItems.RUBY.get()));
+				return Ingredient.of(new ItemStack(DisavcraftModItems.RUBY.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

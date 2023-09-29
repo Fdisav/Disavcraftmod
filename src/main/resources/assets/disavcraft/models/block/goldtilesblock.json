@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/gold_tiles_block",
+    "up": "disavcraft:block/gold_tiles_block",
+    "north": "disavcraft:block/gold_tiles_block",
+    "east": "disavcraft:block/gold_tiles_block",
+    "south": "disavcraft:block/gold_tiles_block",
+    "west": "disavcraft:block/gold_tiles_block",
+    "particle": "disavcraft:block/gold_tiles_block"
+  },
+  "render_type": "solid"
+}

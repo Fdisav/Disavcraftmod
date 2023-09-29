@@ -1,0 +1,497 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyItem.java",
+          "src/main/resources/assets/disavcraft/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/ruby_ore.json",
+          "src/main/resources/assets/disavcraft/blockstates/ruby_ore.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/ores/RubyOreFeature.java",
+          "src/main/java/net/mcreator/disavcraftmod/block/RubyOreBlock.java",
+          "src/main/resources/data/disavcraft/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/disavcraft/models/item/ruby_ore.json",
+          "src/main/resources/assets/disavcraft/models/block/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/RubyBlockBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/ruby_block.json",
+          "src/main/resources/assets/disavcraft/blockstates/ruby_block.json",
+          "src/main/resources/assets/disavcraft/models/block/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/ruby_pickaxe.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/ruby_axe.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/ruby_sword.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/RubySwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/ruby_hoe.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/RubyArmorItem.java",
+          "src/main/resources/assets/disavcraft/models/item/ruby_armor_helmet.json",
+          "src/main/resources/assets/disavcraft/models/item/ruby_armor_leggings.json",
+          "src/main/resources/assets/disavcraft/models/item/ruby_armor_chestplate.json",
+          "src/main/resources/assets/disavcraft/models/item/ruby_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondtilesblock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondtilesblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/DiamondtilesblockBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/diamondtilesblock.json",
+          "src/main/resources/assets/disavcraft/models/item/diamondtilesblock.json",
+          "src/main/resources/assets/disavcraft/blockstates/diamondtilesblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Tilesbase",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tilesbase",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/tilesbase.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/TilesbaseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Blocks",
+      "type": "tab",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Goldtilesblock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldtilesblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/GoldtilesblockBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/goldtilesblock.json",
+          "src/main/resources/assets/disavcraft/blockstates/goldtilesblock.json",
+          "src/main/resources/assets/disavcraft/models/item/goldtilesblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondtilesrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondtilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/diamondtilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldtilesrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldtilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/goldtilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondraw",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondraw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/diamondraw.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/DiamondrawItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rawruby",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/RawrubyItem.java",
+          "src/main/resources/assets/disavcraft/models/item/rawruby.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/ruby_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Redpillar",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redpillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/redpillar.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/RedpillarBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/redpillar.json",
+          "src/main/resources/assets/disavcraft/blockstates/redpillar.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.disavcraft.ruby_axe": "Ruby Axe",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
+      "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "item_group.disavcraft.blocks": "Module-Blocks",
+      "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
+      "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
+      "block.disavcraft.redpillar": "Redpillar",
+      "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
+      "item.disavcraft.ruby_hoe": "Ruby Hoe",
+      "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
+      "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "item.disavcraft.tilesbase": "Tiles base",
+      "item.disavcraftmod.ruby": "Ruby",
+      "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.disavcraft.ruby_shovel": "Ruby Shovel",
+      "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
+      "item.disavcraft.rawruby": "Raw ruby",
+      "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.disavcraft.ruby": "Ruby",
+      "item.disavcraft.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.goldtilesblock": "Gold tiles block",
+      "block.disavcraftmod.ruby_ore": "Ruby Ore",
+      "item.disavcraft.ruby_sword": "Ruby Sword",
+      "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
+      "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.ruby_block": "Block of Ruby",
+      "item.disavcraft.diamondraw": "Diamond raw",
+      "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
+      "item.disavcraftmod.ruby_axe": "Ruby Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "disavcraft",
+    "modName": "DisavCraftMod",
+    "version": "1.0.0",
+    "author": "Arca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.disavcraftmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300335319
+}
