@@ -39,7 +39,7 @@ public class RedpillarBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(10, 0, 10, 16, 16, 16);
+		return box(10, 0, 10, 16, 16, 18);
 	}
 
 	@Override
