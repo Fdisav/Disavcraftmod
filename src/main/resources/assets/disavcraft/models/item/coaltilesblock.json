@@ -1,5 +1,5 @@
 {
-  "parent": "disavcraft:block/redpillar",
+  "parent": "disavcraft:block/coaltilesblock",
   "display": {
     "thirdperson": {
       "rotation": [

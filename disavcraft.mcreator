@@ -418,18 +418,156 @@
       }
     },
     {
-      "name": "Redpillar",
-      "type": "block",
+      "name": "Hook",
+      "type": "item",
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redpillar",
+      "registry_name": "hook",
       "metadata": {
         "files": [
-          "src/main/resources/assets/disavcraft/models/block/redpillar.json",
-          "src/main/java/net/mcreator/disavcraftmod/block/RedpillarBlock.java",
-          "src/main/resources/assets/disavcraft/models/item/redpillar.json",
-          "src/main/resources/assets/disavcraft/blockstates/redpillar.json"
+          "src/main/java/net/mcreator/disavcraftmod/item/HookItem.java",
+          "src/main/resources/assets/disavcraft/models/item/hook.json"
+        ]
+      }
+    },
+    {
+      "name": "Piratetab",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piratetab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Emeraldtilesblock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtilesblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/emeraldtilesblock.json",
+          "src/main/resources/assets/disavcraft/blockstates/emeraldtilesblock.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/EmeraldtilesblockBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/emeraldtilesblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Irontilesblock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irontilesblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/irontilesblock.json",
+          "src/main/resources/assets/disavcraft/models/item/irontilesblock.json",
+          "src/main/resources/assets/disavcraft/blockstates/irontilesblock.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/IrontilesblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Coaltilesblock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coaltilesblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/blockstates/coaltilesblock.json",
+          "src/main/resources/assets/disavcraft/models/block/coaltilesblock.json",
+          "src/main/resources/assets/disavcraft/models/item/coaltilesblock.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/CoaltilesblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritetilesblock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritetilesblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/blockstates/netheritetilesblock.json",
+          "src/main/resources/assets/disavcraft/models/block/netheritetilesblock.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/NetheritetilesblockBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/netheritetilesblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldtilesrecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/emeraldtilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Irontilesrecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irontilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/irontilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Coaltilesrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coaltilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/coaltilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritetilesrecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritetilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/netheritetilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondsmelTrecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondsmel_trecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/diamondsmel_trecipe.json"
         ]
       }
     }
@@ -442,13 +580,16 @@
       "block.disavcraftmod.ruby_block": "Block of Ruby",
       "block.disavcraft.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.irontilesblock": "Iron tiles block",
       "item_group.disavcraft.blocks": "Module-Blocks",
+      "block.disavcraft.netheritetilesblock": "Netherite tiles block",
       "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
       "block.disavcraft.diamondtilesblock": "Diamond tiles block",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
-      "block.disavcraft.redpillar": "Redpillar",
+      "block.disavcraft.coaltilesblock": "Coal tiles block",
       "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
       "item.disavcraft.ruby_hoe": "Ruby Hoe",
+      "item.disavcraft.hook": "Hook",
       "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
       "item.disavcraftmod.ruby_sword": "Ruby Sword",
       "item.disavcraft.tilesbase": "Tiles base",
@@ -468,7 +609,9 @@
       "block.disavcraft.ruby_block": "Block of Ruby",
       "item.disavcraft.diamondraw": "Diamond raw",
       "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
-      "item.disavcraftmod.ruby_axe": "Ruby Axe"
+      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
+      "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "item_group.disavcraft.piratetab": "Pirates module"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/iron_tiles",
+    "up": "disavcraft:block/iron_tiles",
+    "north": "disavcraft:block/iron_tiles",
+    "east": "disavcraft:block/iron_tiles",
+    "south": "disavcraft:block/iron_tiles",
+    "west": "disavcraft:block/iron_tiles",
+    "particle": "disavcraft:block/iron_tiles"
+  },
+  "render_type": "solid"
+}

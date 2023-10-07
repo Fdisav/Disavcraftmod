@@ -3,13 +3,16 @@
   "block.disavcraftmod.ruby_block": "Block of Ruby",
   "block.disavcraft.ruby_ore": "Ruby Ore",
   "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+  "block.disavcraft.irontilesblock": "Iron tiles block",
   "item_group.disavcraft.blocks": "Module-Blocks",
+  "block.disavcraft.netheritetilesblock": "Netherite tiles block",
   "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
   "block.disavcraft.diamondtilesblock": "Diamond tiles block",
   "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
-  "block.disavcraft.redpillar": "Redpillar",
+  "block.disavcraft.coaltilesblock": "Coal tiles block",
   "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
   "item.disavcraft.ruby_hoe": "Ruby Hoe",
+  "item.disavcraft.hook": "Hook",
   "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
   "item.disavcraftmod.ruby_sword": "Ruby Sword",
   "item.disavcraft.tilesbase": "Tiles base",
@@ -29,5 +32,7 @@
   "block.disavcraft.ruby_block": "Block of Ruby",
   "item.disavcraft.diamondraw": "Diamond raw",
   "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
-  "item.disavcraftmod.ruby_axe": "Ruby Axe"
+  "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
+  "item.disavcraftmod.ruby_axe": "Ruby Axe",
+  "item_group.disavcraft.piratetab": "Pirates module"
 }

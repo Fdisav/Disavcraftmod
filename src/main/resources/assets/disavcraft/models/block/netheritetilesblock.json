@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/netherite_tiles",
+    "up": "disavcraft:block/netherite_tiles",
+    "north": "disavcraft:block/netherite_tiles",
+    "east": "disavcraft:block/netherite_tiles",
+    "south": "disavcraft:block/netherite_tiles",
+    "west": "disavcraft:block/netherite_tiles",
+    "particle": "disavcraft:block/netherite_tiles"
+  },
+  "render_type": "solid"
+}

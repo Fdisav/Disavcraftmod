@@ -26,7 +26,16 @@ public class DisavcraftModTabs {
 				tabData.accept(DisavcraftModBlocks.DIAMONDTILESBLOCK.get().asItem());
 				tabData.accept(DisavcraftModItems.TILESBASE.get());
 				tabData.accept(DisavcraftModBlocks.GOLDTILESBLOCK.get().asItem());
-				tabData.accept(DisavcraftModBlocks.REDPILLAR.get().asItem());
+				tabData.accept(DisavcraftModBlocks.EMERALDTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.COALTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.NETHERITETILESBLOCK.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> PIRATETAB = REGISTRY.register("piratetab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.disavcraft.piratetab")).icon(() -> new ItemStack(DisavcraftModItems.HOOK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DisavcraftModItems.HOOK.get());
 			})
 
 					.build());

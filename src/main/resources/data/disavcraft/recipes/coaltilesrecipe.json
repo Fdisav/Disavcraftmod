@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:coals"
+    },
+    "3": {
+      "tag": "minecraft:coals"
+    },
+    "4": {
+      "item": "disavcraft:tilesbase"
+    },
+    "5": {
+      "tag": "minecraft:coals"
+    },
+    "7": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "disavcraft:coaltilesblock",
+    "count": 2
+  }
+}

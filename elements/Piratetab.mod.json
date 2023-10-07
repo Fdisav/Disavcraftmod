@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Pirates module",
+    "icon": {
+      "value": "CUSTOM:Hook"
+    },
+    "showSearch": false
+  }
+}

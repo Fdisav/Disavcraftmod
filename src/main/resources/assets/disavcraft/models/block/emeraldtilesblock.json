@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/emerald_tiles",
+    "up": "disavcraft:block/emerald_tiles",
+    "north": "disavcraft:block/emerald_tiles",
+    "east": "disavcraft:block/emerald_tiles",
+    "south": "disavcraft:block/emerald_tiles",
+    "west": "disavcraft:block/emerald_tiles",
+    "particle": "disavcraft:block/emerald_tiles"
+  },
+  "render_type": "solid"
+}

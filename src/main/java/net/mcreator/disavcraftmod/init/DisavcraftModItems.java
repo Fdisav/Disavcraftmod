@@ -21,6 +21,7 @@ import net.mcreator.disavcraftmod.item.RubyHoeItem;
 import net.mcreator.disavcraftmod.item.RubyAxeItem;
 import net.mcreator.disavcraftmod.item.RubyArmorItem;
 import net.mcreator.disavcraftmod.item.RawrubyItem;
+import net.mcreator.disavcraftmod.item.HookItem;
 import net.mcreator.disavcraftmod.item.DiamondrawItem;
 import net.mcreator.disavcraftmod.DisavcraftMod;
 
@@ -43,7 +44,11 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> GOLDTILESBLOCK = block(DisavcraftModBlocks.GOLDTILESBLOCK);
 	public static final RegistryObject<Item> DIAMONDRAW = REGISTRY.register("diamondraw", () -> new DiamondrawItem());
 	public static final RegistryObject<Item> RAWRUBY = REGISTRY.register("rawruby", () -> new RawrubyItem());
-	public static final RegistryObject<Item> REDPILLAR = block(DisavcraftModBlocks.REDPILLAR);
+	public static final RegistryObject<Item> HOOK = REGISTRY.register("hook", () -> new HookItem());
+	public static final RegistryObject<Item> EMERALDTILESBLOCK = block(DisavcraftModBlocks.EMERALDTILESBLOCK);
+	public static final RegistryObject<Item> IRONTILESBLOCK = block(DisavcraftModBlocks.IRONTILESBLOCK);
+	public static final RegistryObject<Item> COALTILESBLOCK = block(DisavcraftModBlocks.COALTILESBLOCK);
+	public static final RegistryObject<Item> NETHERITETILESBLOCK = block(DisavcraftModBlocks.NETHERITETILESBLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
