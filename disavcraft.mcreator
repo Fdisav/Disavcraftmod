@@ -960,6 +960,35 @@
           "src/main/resources/data/disavcraft/forge/biome_modifier/sequoiatree_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Coalgeodes",
+      "type": "feature",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalgeodes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/forge/biome_modifier/coalgeodes_biome_modifier.json",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/coalgeodes.json",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/coalgeodes.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/CoalgeodesFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "LootTableGeneric",
+      "type": "loottable",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_table_generic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/loot_tables/chests/loot_table_generic.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
