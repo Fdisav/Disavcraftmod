@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.disavcraftmod.item.TilesbaseItem;
@@ -27,30 +28,46 @@ import net.mcreator.disavcraftmod.DisavcraftMod;
 
 public class DisavcraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DisavcraftMod.MODID);
-	public static final RegistryObject<Item> RUBY_BLOCK = block(DisavcraftModBlocks.RUBY_BLOCK);
-	public static final RegistryObject<Item> RUBY_ORE = block(DisavcraftModBlocks.RUBY_ORE);
 	public static final RegistryObject<Item> RUBY_AXE = REGISTRY.register("ruby_axe", () -> new RubyAxeItem());
 	public static final RegistryObject<Item> RUBY_PICKAXE = REGISTRY.register("ruby_pickaxe", () -> new RubyPickaxeItem());
-	public static final RegistryObject<Item> RUBY_SWORD = REGISTRY.register("ruby_sword", () -> new RubySwordItem());
 	public static final RegistryObject<Item> RUBY_SHOVEL = REGISTRY.register("ruby_shovel", () -> new RubyShovelItem());
 	public static final RegistryObject<Item> RUBY_HOE = REGISTRY.register("ruby_hoe", () -> new RubyHoeItem());
-	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
+	public static final RegistryObject<Item> RUBY_SWORD = REGISTRY.register("ruby_sword", () -> new RubySwordItem());
 	public static final RegistryObject<Item> RUBY_ARMOR_HELMET = REGISTRY.register("ruby_armor_helmet", () -> new RubyArmorItem.Helmet());
 	public static final RegistryObject<Item> RUBY_ARMOR_CHESTPLATE = REGISTRY.register("ruby_armor_chestplate", () -> new RubyArmorItem.Chestplate());
 	public static final RegistryObject<Item> RUBY_ARMOR_LEGGINGS = REGISTRY.register("ruby_armor_leggings", () -> new RubyArmorItem.Leggings());
 	public static final RegistryObject<Item> RUBY_ARMOR_BOOTS = REGISTRY.register("ruby_armor_boots", () -> new RubyArmorItem.Boots());
-	public static final RegistryObject<Item> DIAMONDTILESBLOCK = block(DisavcraftModBlocks.DIAMONDTILESBLOCK);
 	public static final RegistryObject<Item> TILESBASE = REGISTRY.register("tilesbase", () -> new TilesbaseItem());
+	public static final RegistryObject<Item> COALTILESBLOCK = block(DisavcraftModBlocks.COALTILESBLOCK);
+	public static final RegistryObject<Item> IRONTILESBLOCK = block(DisavcraftModBlocks.IRONTILESBLOCK);
 	public static final RegistryObject<Item> GOLDTILESBLOCK = block(DisavcraftModBlocks.GOLDTILESBLOCK);
+	public static final RegistryObject<Item> EMERALDTILESBLOCK = block(DisavcraftModBlocks.EMERALDTILESBLOCK);
+	public static final RegistryObject<Item> DIAMONDTILESBLOCK = block(DisavcraftModBlocks.DIAMONDTILESBLOCK);
+	public static final RegistryObject<Item> NETHERITETILESBLOCK = block(DisavcraftModBlocks.NETHERITETILESBLOCK);
+	public static final RegistryObject<Item> SEQUOIA_WOOD = block(DisavcraftModBlocks.SEQUOIA_WOOD);
+	public static final RegistryObject<Item> SEQUOIA_LOG = block(DisavcraftModBlocks.SEQUOIA_LOG);
+	public static final RegistryObject<Item> SEQUOIA_PLANKS = block(DisavcraftModBlocks.SEQUOIA_PLANKS);
+	public static final RegistryObject<Item> SEQUOIA_STAIRS = block(DisavcraftModBlocks.SEQUOIA_STAIRS);
+	public static final RegistryObject<Item> SEQUOIA_SLAB = block(DisavcraftModBlocks.SEQUOIA_SLAB);
+	public static final RegistryObject<Item> SEQUOIA_BUTTON = block(DisavcraftModBlocks.SEQUOIA_BUTTON);
+	public static final RegistryObject<Item> SEQUOIADOOR = doubleBlock(DisavcraftModBlocks.SEQUOIADOOR);
+	public static final RegistryObject<Item> SEQUOIATRAPDOOR = block(DisavcraftModBlocks.SEQUOIATRAPDOOR);
 	public static final RegistryObject<Item> DIAMONDRAW = REGISTRY.register("diamondraw", () -> new DiamondrawItem());
 	public static final RegistryObject<Item> RAWRUBY = REGISTRY.register("rawruby", () -> new RawrubyItem());
 	public static final RegistryObject<Item> HOOK = REGISTRY.register("hook", () -> new HookItem());
-	public static final RegistryObject<Item> EMERALDTILESBLOCK = block(DisavcraftModBlocks.EMERALDTILESBLOCK);
-	public static final RegistryObject<Item> IRONTILESBLOCK = block(DisavcraftModBlocks.IRONTILESBLOCK);
-	public static final RegistryObject<Item> COALTILESBLOCK = block(DisavcraftModBlocks.COALTILESBLOCK);
-	public static final RegistryObject<Item> NETHERITETILESBLOCK = block(DisavcraftModBlocks.NETHERITETILESBLOCK);
+	public static final RegistryObject<Item> SEQUOIA_LEAVES = block(DisavcraftModBlocks.SEQUOIA_LEAVES);
+	public static final RegistryObject<Item> SEQUOIA_FENCE = block(DisavcraftModBlocks.SEQUOIA_FENCE);
+	public static final RegistryObject<Item> SEQUOIA_FENCE_GATE = block(DisavcraftModBlocks.SEQUOIA_FENCE_GATE);
+	public static final RegistryObject<Item> SEQUOIA_PRESSURE_PLATE = block(DisavcraftModBlocks.SEQUOIA_PRESSURE_PLATE);
+	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
+	public static final RegistryObject<Item> RUBY_ORE = block(DisavcraftModBlocks.RUBY_ORE);
+	public static final RegistryObject<Item> RUBY_BLOCK = block(DisavcraftModBlocks.RUBY_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

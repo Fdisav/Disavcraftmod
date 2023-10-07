@@ -3,7 +3,7 @@
     {
       "name": "Ruby",
       "type": "item",
-      "sortid": 20,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
@@ -17,7 +17,7 @@
     {
       "name": "RubyOre",
       "type": "block",
-      "sortid": 2,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore",
@@ -37,7 +37,7 @@
     {
       "name": "RubyBlock",
       "type": "block",
-      "sortid": 1,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_block",
@@ -53,7 +53,7 @@
     {
       "name": "RubyOreBlockRecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_block_recipe",
@@ -66,7 +66,7 @@
     {
       "name": "RubyBlockOreRecipe",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_block_ore_recipe",
@@ -79,7 +79,7 @@
     {
       "name": "RubyOreSmelting",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_smelting",
@@ -92,7 +92,7 @@
     {
       "name": "RubyPickaxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_pickaxe",
@@ -106,7 +106,7 @@
     {
       "name": "RubyAxe",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_axe",
@@ -120,7 +120,7 @@
     {
       "name": "RubySword",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_sword",
@@ -134,7 +134,7 @@
     {
       "name": "RubyShovel",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_shovel",
@@ -148,7 +148,7 @@
     {
       "name": "RubyHoe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_hoe",
@@ -162,7 +162,7 @@
     {
       "name": "RubyPickaxeRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_pickaxe_recipe",
@@ -175,7 +175,7 @@
     {
       "name": "RubyAxeRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_axe_recipe",
@@ -188,7 +188,7 @@
     {
       "name": "RubySwordRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_sword_recipe",
@@ -201,7 +201,7 @@
     {
       "name": "RubyShovelRecipe",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_shovel_recipe",
@@ -214,7 +214,7 @@
     {
       "name": "RubyHoeRecipe",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_hoe_recipe",
@@ -227,7 +227,7 @@
     {
       "name": "RubyArmor",
       "type": "armor",
-      "sortid": 21,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor",
@@ -244,7 +244,7 @@
     {
       "name": "RubyArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_helmet_recipe",
@@ -257,7 +257,7 @@
     {
       "name": "RubyArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_chestplate_recipe",
@@ -270,7 +270,7 @@
     {
       "name": "RubyArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_leggings_recipe",
@@ -283,7 +283,7 @@
     {
       "name": "RubyArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_boots_recipe",
@@ -296,7 +296,7 @@
     {
       "name": "Diamondtilesblock",
       "type": "block",
-      "sortid": 22,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamondtilesblock",
@@ -312,7 +312,7 @@
     {
       "name": "Tilesbase",
       "type": "item",
-      "sortid": 23,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tilesbase",
@@ -326,7 +326,7 @@
     {
       "name": "Blocks",
       "type": "tab",
-      "sortid": 24,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks",
@@ -337,7 +337,7 @@
     {
       "name": "Goldtilesblock",
       "type": "block",
-      "sortid": 25,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldtilesblock",
@@ -353,7 +353,7 @@
     {
       "name": "Diamondtilesrecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamondtilesrecipe",
@@ -366,7 +366,7 @@
     {
       "name": "Goldtilesrecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goldtilesrecipe",
@@ -379,7 +379,7 @@
     {
       "name": "Diamondraw",
       "type": "item",
-      "sortid": 28,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamondraw",
@@ -393,7 +393,7 @@
     {
       "name": "Rawruby",
       "type": "item",
-      "sortid": 29,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawruby",
@@ -407,7 +407,7 @@
     {
       "name": "Rubyrecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rubyrecipe",
@@ -420,7 +420,7 @@
     {
       "name": "Hook",
       "type": "item",
-      "sortid": 31,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hook",
@@ -434,7 +434,7 @@
     {
       "name": "Piratetab",
       "type": "tab",
-      "sortid": 32,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piratetab",
@@ -445,7 +445,7 @@
     {
       "name": "Emeraldtilesblock",
       "type": "block",
-      "sortid": 33,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emeraldtilesblock",
@@ -461,7 +461,7 @@
     {
       "name": "Irontilesblock",
       "type": "block",
-      "sortid": 34,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irontilesblock",
@@ -477,7 +477,7 @@
     {
       "name": "Coaltilesblock",
       "type": "block",
-      "sortid": 35,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coaltilesblock",
@@ -493,7 +493,7 @@
     {
       "name": "Netheritetilesblock",
       "type": "block",
-      "sortid": 36,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheritetilesblock",
@@ -509,7 +509,7 @@
     {
       "name": "Emeraldtilesrecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emeraldtilesrecipe",
@@ -522,7 +522,7 @@
     {
       "name": "Irontilesrecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "irontilesrecipe",
@@ -535,7 +535,7 @@
     {
       "name": "Coaltilesrecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coaltilesrecipe",
@@ -548,7 +548,7 @@
     {
       "name": "Netheritetilesrecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheritetilesrecipe",
@@ -561,13 +561,356 @@
     {
       "name": "DiamondsmelTrecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamondsmel_trecipe",
       "metadata": {
         "files": [
           "src/main/resources/data/disavcraft/recipes/diamondsmel_trecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaWood",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaWoodBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_wood.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_wood.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaLog",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/sequoia_log.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_log.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaLogBlock.java",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaPlanks",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaPlanksBlock.java",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_planks.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_planks.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaLeaves",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoia_leaves.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_leaves.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaLeavesBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaStairs",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoia_stairs.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_stairs.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_stairs.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_stairs_outer.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaStairsBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaSlab",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaSlabBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_slab.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_slab.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_slab_full.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_slab.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaFence",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_post.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_fence.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaFenceBlock.java",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_fence.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaFenceGate",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_gate_open.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_fence_gate.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_gate.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaFenceGateBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_fence_gate.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_gate_wall_open.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaPressurePlate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/sequoia_pressure_plate.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_pressure_plate_down.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaPressurePlateBlock.java",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_pressure_plate.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaButton",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoia_button_pressed.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiaButtonBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_button.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoia_button.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoia_button.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoia_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaItemsTag",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/sequoia_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaWoodRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaStairsRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaSlabRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaFenceRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaButtonRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SequoiaStickRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoia_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/sequoia_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sequoiadoor",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoiadoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_bottom_right.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_bottom_left.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_top_right.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoiadoor.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_top_right_open.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiadoorBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_bottom_left_open.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_top_left.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_bottom_right_open.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiadoor_top_left_open.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoiadoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Sequoiatrapdoor",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoiatrapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/SequoiatrapdoorBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/sequoiatrapdoor.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiatrapdoor_top.json",
+          "src/main/resources/assets/disavcraft/blockstates/sequoiatrapdoor.json",
+          "src/main/resources/assets/disavcraft/models/item/sequoiatrapdoor.json",
+          "src/main/resources/assets/disavcraft/models/block/sequoiatrapdoor_open.json"
         ]
       }
     }
@@ -577,40 +920,52 @@
   "language_map": {
     "en_us": {
       "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
       "block.disavcraft.ruby_ore": "Ruby Ore",
-      "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
-      "block.disavcraft.irontilesblock": "Iron tiles block",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
       "item_group.disavcraft.blocks": "Module-Blocks",
-      "block.disavcraft.netheritetilesblock": "Netherite tiles block",
-      "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
-      "block.disavcraft.diamondtilesblock": "Diamond tiles block",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
       "block.disavcraft.coaltilesblock": "Coal tiles block",
+      "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
       "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
-      "item.disavcraft.ruby_hoe": "Ruby Hoe",
-      "item.disavcraft.hook": "Hook",
+      "block.disavcraft.sequoia_wood": "Sequoia Wood",
       "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
-      "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "block.disavcraft.sequoia_log": "Sequoia Log",
+      "block.disavcraft.sequoia_pressure_plate": "Sequoia Pressure Plate",
       "item.disavcraft.tilesbase": "Tiles base",
       "item.disavcraftmod.ruby": "Ruby",
       "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
-      "item.disavcraft.ruby_shovel": "Ruby Shovel",
       "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
-      "item.disavcraft.rawruby": "Raw ruby",
       "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
       "item.disavcraft.ruby": "Ruby",
-      "item.disavcraft.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.sequoia_slab": "Sequoia Slab",
+      "block.disavcraft.sequoia_planks": "Sequoia Planks",
       "block.disavcraft.goldtilesblock": "Gold tiles block",
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
+      "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
+      "item.disavcraft.diamondraw": "Diamond raw",
+      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
+      "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
+      "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.irontilesblock": "Iron tiles block",
+      "block.disavcraft.sequoia_button": "Sequoia Button",
+      "block.disavcraft.netheritetilesblock": "Netherite tiles block",
+      "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
+      "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "item.disavcraft.ruby_hoe": "Ruby Hoe",
+      "item.disavcraft.hook": "Hook",
+      "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "item.disavcraft.ruby_shovel": "Ruby Shovel",
+      "item.disavcraft.rawruby": "Raw ruby",
+      "item.disavcraft.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
       "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
       "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.sequoia_fence": "Sequoia Fence",
       "block.disavcraft.ruby_block": "Block of Ruby",
-      "item.disavcraft.diamondraw": "Diamond raw",
-      "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
-      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
-      "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "block.disavcraft.sequoiadoor": "Sequoia door",
       "item_group.disavcraft.piratetab": "Pirates module"
     }
   },

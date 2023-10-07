@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      },
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      },
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      },
+      {
+        "value": "CUSTOM:SequoiaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SequoiaStairs"
+    },
+    "name": "sequoia_stairs_recipe",
+    "namespace": "mod"
+  }
+}

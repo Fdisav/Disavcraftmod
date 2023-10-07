@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/sequoia_log_top",
+    "up": "disavcraft:block/sequoia_log_top",
+    "north": "disavcraft:block/sequoia_log_side",
+    "east": "disavcraft:block/sequoia_log_side",
+    "south": "disavcraft:block/sequoia_log_side",
+    "west": "disavcraft:block/sequoia_log_side",
+    "particle": "disavcraft:block/sequoia_log_top"
+  },
+  "render_type": "solid"
+}

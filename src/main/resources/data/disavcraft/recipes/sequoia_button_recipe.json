@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "disavcraft:sequoia_planks"
+    }
+  ],
+  "result": {
+    "item": "disavcraft:sequoia_button",
+    "count": 1
+  }
+}

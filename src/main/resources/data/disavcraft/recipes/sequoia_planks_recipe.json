@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forge:sequoia_log"
+    }
+  ],
+  "result": {
+    "item": "disavcraft:sequoia_planks",
+    "count": 4
+  }
+}

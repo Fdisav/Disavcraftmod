@@ -23,13 +23,21 @@ public class DisavcraftModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DisavcraftMod.MODID);
 	public static final RegistryObject<CreativeModeTab> BLOCKS = REGISTRY.register("blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.disavcraft.blocks")).icon(() -> new ItemStack(DisavcraftModItems.TILESBASE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(DisavcraftModBlocks.DIAMONDTILESBLOCK.get().asItem());
 				tabData.accept(DisavcraftModItems.TILESBASE.get());
+				tabData.accept(DisavcraftModBlocks.COALTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONTILESBLOCK.get().asItem());
 				tabData.accept(DisavcraftModBlocks.GOLDTILESBLOCK.get().asItem());
 				tabData.accept(DisavcraftModBlocks.EMERALDTILESBLOCK.get().asItem());
-				tabData.accept(DisavcraftModBlocks.IRONTILESBLOCK.get().asItem());
-				tabData.accept(DisavcraftModBlocks.COALTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.DIAMONDTILESBLOCK.get().asItem());
 				tabData.accept(DisavcraftModBlocks.NETHERITETILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_WOOD.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_LOG.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_PLANKS.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_STAIRS.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_SLAB.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIA_BUTTON.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIADOOR.get().asItem());
+				tabData.accept(DisavcraftModBlocks.SEQUOIATRAPDOOR.get().asItem());
 			})
 
 					.build());
@@ -42,6 +50,11 @@ public class DisavcraftModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(DisavcraftModBlocks.SEQUOIA_FENCE_GATE.get().asItem());
+			tabData.accept(DisavcraftModBlocks.SEQUOIA_PRESSURE_PLATE.get().asItem());
+		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DisavcraftModItems.RUBY_SWORD.get());
@@ -61,6 +74,11 @@ public class DisavcraftModTabs {
 			tabData.accept(DisavcraftModItems.RUBY_PICKAXE.get());
 			tabData.accept(DisavcraftModItems.RUBY_SHOVEL.get());
 			tabData.accept(DisavcraftModItems.RUBY_HOE.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(DisavcraftModBlocks.SEQUOIA_LEAVES.get().asItem());
+			tabData.accept(DisavcraftModBlocks.SEQUOIA_FENCE.get().asItem());
 		}
 	}
 }

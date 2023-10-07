@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "disavcraft:block/sequoia_planks",
+    "top": "disavcraft:block/sequoia_planks",
+    "side": "disavcraft:block/sequoia_planks"
+  },
+  "render_type": "solid"
+}

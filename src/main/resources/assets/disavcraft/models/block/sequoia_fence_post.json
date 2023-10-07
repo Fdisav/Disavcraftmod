@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "disavcraft:block/sequoia_planks",
+    "particle": "disavcraft:block/sequoia_planks"
+  },
+  "render_type": "solid"
+}
