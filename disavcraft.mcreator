@@ -913,6 +913,53 @@
           "src/main/resources/assets/disavcraft/models/block/sequoiatrapdoor_open.json"
         ]
       }
+    },
+    {
+      "name": "Randomhouse",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomhouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/randomhouse.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/RandomhouseFeature.java",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/randomhouse.json",
+          "src/main/resources/data/disavcraft/forge/biome_modifier/randomhouse_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Sequoiaforest",
+      "type": "biome",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoiaforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/biome/sequoiaforest.json",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/sequoiaforest_tree.json",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/sequoiaforest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Sequoiatree",
+      "type": "structure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sequoiatree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/sequoiatree.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/SequoiatreeFeature.java",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/sequoiatree.json",
+          "src/main/resources/data/disavcraft/forge/biome_modifier/sequoiatree_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -943,6 +990,7 @@
       "block.disavcraft.goldtilesblock": "Gold tiles block",
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
+      "biome.disavcraft.sequoiaforest": " Sequoia forest",
       "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
       "item.disavcraft.diamondraw": "Diamond raw",
       "block.disavcraft.emeraldtilesblock": "Emerald tiles block",

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "disavcraft:sequoiaforest",
+  "features": "disavcraft:randomhouse",
+  "step": "surface_structures"
+}

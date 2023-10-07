@@ -12,10 +12,14 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.disavcraftmod.world.features.ores.RubyOreFeature;
+import net.mcreator.disavcraftmod.world.features.SequoiatreeFeature;
+import net.mcreator.disavcraftmod.world.features.RandomhouseFeature;
 import net.mcreator.disavcraftmod.DisavcraftMod;
 
 @Mod.EventBusSubscriber
 public class DisavcraftModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, DisavcraftMod.MODID);
 	public static final RegistryObject<Feature<?>> RUBY_ORE = REGISTRY.register("ruby_ore", RubyOreFeature::new);
+	public static final RegistryObject<Feature<?>> RANDOMHOUSE = REGISTRY.register("randomhouse", RandomhouseFeature::new);
+	public static final RegistryObject<Feature<?>> SEQUOIATREE = REGISTRY.register("sequoiatree", SequoiatreeFeature::new);
 }
