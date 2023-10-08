@@ -48,6 +48,13 @@ public class DisavcraftModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> UNIVERSEUPDATE = REGISTRY.register("universeupdate",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.disavcraft.universeupdate")).icon(() -> new ItemStack(DisavcraftModItems.SUN.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_1.get().asItem());
+				tabData.accept(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_2.get().asItem());
+			})
+
+					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

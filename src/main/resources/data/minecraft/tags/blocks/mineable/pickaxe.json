@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "disavcraft:ruby_ore",
-    "disavcraft:ruby_block"
+    "disavcraft:ruby_block",
+    "disavcraft:sturdywallverticalstripes_1",
+    "disavcraft:sturdywallverticalstripes_2"
   ]
 }

@@ -67,6 +67,8 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> RUBYTILESBLOCK = block(DisavcraftModBlocks.RUBYTILESBLOCK);
 	public static final RegistryObject<Item> SUN = REGISTRY.register("sun", () -> new SunItem());
 	public static final RegistryObject<Item> EXAPEPEARL = REGISTRY.register("exapepearl", () -> new ExapepearlItem());
+	public static final RegistryObject<Item> STURDYWALLVERTICALSTRIPES_1 = block(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_1);
+	public static final RegistryObject<Item> STURDYWALLVERTICALSTRIPES_2 = block(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_2);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

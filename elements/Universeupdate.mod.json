@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Universe update",
+    "icon": {
+      "value": "CUSTOM:Sun"
+    },
+    "showSearch": false
+  }
+}

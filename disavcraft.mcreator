@@ -1103,6 +1103,93 @@
           "src/main/resources/assets/disavcraft/models/item/exapepearl.json"
         ]
       }
+    },
+    {
+      "name": "DisavCraftLogo",
+      "type": "painting",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disav_craft_logo",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DisavCraftLogoSmall",
+      "type": "painting",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disav_craft_logo_small",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DisavCraftLogoBig",
+      "type": "painting",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disav_craft_logo_big",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MinecraftPainting1",
+      "type": "painting",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_painting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sturdywallverticalstripes1",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sturdywallverticalstripes_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/Sturdywallverticalstripes1Block.java",
+          "src/main/resources/assets/disavcraft/blockstates/sturdywallverticalstripes_1.json",
+          "src/main/resources/assets/disavcraft/models/block/sturdywallverticalstripes_1.json",
+          "src/main/resources/assets/disavcraft/models/item/sturdywallverticalstripes_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Universeupdate",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universeupdate",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sturdywallverticalstripes2",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sturdywallverticalstripes_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/sturdywallverticalstripes_2.json",
+          "src/main/resources/assets/disavcraft/blockstates/sturdywallverticalstripes_2.json",
+          "src/main/resources/assets/disavcraft/models/item/sturdywallverticalstripes_2.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/Sturdywallverticalstripes2Block.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1110,15 +1197,18 @@
   "language_map": {
     "it_it": {
       "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraft.ruby_ore": "Ruby Ore",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
       "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
       "item_group.disavcraft.blocks": "Module-Blocks",
       "biome.disavcraft.sunland": "Sun land",
+      "painting.disavcraft.disav_craft_logo_small.title": "DisavCraft Logo small",
+      "block.disavcraft.sturdywallverticalstripes_1": "Sturdy wall whit blue vertical stripes",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
       "block.disavcraft.coaltilesblock": "Coal tiles block",
       "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
       "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.sturdywallverticalstripes_2": "Sturdy wall pink vertical stripes",
       "block.disavcraft.sequoia_wood": "Sequoia Wood",
       "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.sequoia_log": "Sequoia Log",
@@ -1127,6 +1217,7 @@
       "item.disavcraftmod.ruby": "Ruby",
       "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
       "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
+      "painting.disavcraft.disav_craft_logo.title": "DisavCraft Logo",
       "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
       "item.disavcraft.ruby": "Ruby",
       "block.disavcraft.sequoia_slab": "Sequoia Slab",
@@ -1135,27 +1226,34 @@
       "block.disavcraft.goldtilesblock": "Gold tiles block",
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
+      "painting.disavcraft.disav_craft_logo_small.author": "Fdisav",
       "biome.disavcraft.sequoiaforest": " Sequoia forest",
+      "item_group.disavcraft.universeupdate": "Universe update",
       "block.disavcraft.rubytilesblock": " Ruby tiles",
       "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
       "item.disavcraft.diamondraw": "Diamond raw",
       "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "painting.disavcraft.disav_craft_logo_big.author": "Fdisav",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "painting.disavcraft.minecraft_painting_1.author": "A random artist",
       "block.disavcraft.irontilesblock": "Iron tiles block",
       "block.disavcraft.sequoia_button": "Sequoia Button",
       "block.disavcraft.netheritetilesblock": "Netherite tiles block",
       "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
       "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "painting.disavcraft.disav_craft_logo_big.title": "DisavCraft Logo Big",
       "item.disavcraft.ruby_hoe": "Ruby Hoe",
       "item.disavcraft.hook": "Hook",
       "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "painting.disavcraft.disav_craft_logo.author": "Fdisav",
       "item.disavcraft.ruby_shovel": "Ruby Shovel",
       "item.disavcraft.rawruby": "Raw ruby",
       "item.disavcraft.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
       "item.disavcraft.sun": "Sun Pearl",
+      "painting.disavcraft.minecraft_painting_1.title": "Minecraft Painting",
       "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
       "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_fence": "Sequoia Fence",
@@ -1165,15 +1263,18 @@
     },
     "en_us": {
       "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraft.ruby_ore": "Ruby Ore",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
       "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
       "item_group.disavcraft.blocks": "Module-Blocks",
       "biome.disavcraft.sunland": "Sun land",
+      "painting.disavcraft.disav_craft_logo_small.title": "DisavCraft Logo small",
+      "block.disavcraft.sturdywallverticalstripes_1": "Sturdy wall whit blue vertical stripes",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
       "block.disavcraft.coaltilesblock": "Coal tiles block",
       "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
       "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.sturdywallverticalstripes_2": "Sturdy wall pink vertical stripes",
       "block.disavcraft.sequoia_wood": "Sequoia Wood",
       "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.sequoia_log": "Sequoia Log",
@@ -1182,6 +1283,7 @@
       "item.disavcraftmod.ruby": "Ruby",
       "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
       "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
+      "painting.disavcraft.disav_craft_logo.title": "DisavCraft Logo",
       "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
       "item.disavcraft.ruby": "Ruby",
       "block.disavcraft.sequoia_slab": "Sequoia Slab",
@@ -1190,27 +1292,34 @@
       "block.disavcraft.goldtilesblock": "Gold tiles block",
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
+      "painting.disavcraft.disav_craft_logo_small.author": "Fdisav",
       "biome.disavcraft.sequoiaforest": " Sequoia forest",
+      "item_group.disavcraft.universeupdate": "Universe update",
       "block.disavcraft.rubytilesblock": " Ruby tiles",
       "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
       "item.disavcraft.diamondraw": "Diamond raw",
       "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "painting.disavcraft.disav_craft_logo_big.author": "Fdisav",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "painting.disavcraft.minecraft_painting_1.author": "A random artist",
       "block.disavcraft.irontilesblock": "Iron tiles block",
       "block.disavcraft.sequoia_button": "Sequoia Button",
       "block.disavcraft.netheritetilesblock": "Netherite tiles block",
       "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
       "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "painting.disavcraft.disav_craft_logo_big.title": "DisavCraft Logo Big",
       "item.disavcraft.ruby_hoe": "Ruby Hoe",
       "item.disavcraft.hook": "Hook",
       "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "painting.disavcraft.disav_craft_logo.author": "Fdisav",
       "item.disavcraft.ruby_shovel": "Ruby Shovel",
       "item.disavcraft.rawruby": "Raw ruby",
       "item.disavcraft.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
       "item.disavcraft.sun": "Sun Pearl",
+      "painting.disavcraft.minecraft_painting_1.title": "Minecraft Painting",
       "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
       "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_fence": "Sequoia Fence",

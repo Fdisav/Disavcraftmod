@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.disavcraftmod.block.SunPortalBlock;
+import net.mcreator.disavcraftmod.block.Sturdywallverticalstripes2Block;
+import net.mcreator.disavcraftmod.block.Sturdywallverticalstripes1Block;
 import net.mcreator.disavcraftmod.block.SequoiatrapdoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiadoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiaWoodBlock;
@@ -58,4 +60,6 @@ public class DisavcraftModBlocks {
 	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
 	public static final RegistryObject<Block> RUBYTILESBLOCK = REGISTRY.register("rubytilesblock", () -> new RubytilesblockBlock());
 	public static final RegistryObject<Block> SUN_PORTAL = REGISTRY.register("sun_portal", () -> new SunPortalBlock());
+	public static final RegistryObject<Block> STURDYWALLVERTICALSTRIPES_1 = REGISTRY.register("sturdywallverticalstripes_1", () -> new Sturdywallverticalstripes1Block());
+	public static final RegistryObject<Block> STURDYWALLVERTICALSTRIPES_2 = REGISTRY.register("sturdywallverticalstripes_2", () -> new Sturdywallverticalstripes2Block());
 }

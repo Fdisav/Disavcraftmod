@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "up": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "north": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "east": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "south": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "west": "disavcraft:block/sturdy_wall_vertical_stripes1",
+    "particle": "disavcraft:block/sturdy_wall_vertical_stripes1"
+  },
+  "render_type": "solid"
+}
