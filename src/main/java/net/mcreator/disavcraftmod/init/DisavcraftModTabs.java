@@ -38,6 +38,7 @@ public class DisavcraftModTabs {
 				tabData.accept(DisavcraftModBlocks.SEQUOIA_BUTTON.get().asItem());
 				tabData.accept(DisavcraftModBlocks.SEQUOIADOOR.get().asItem());
 				tabData.accept(DisavcraftModBlocks.SEQUOIATRAPDOOR.get().asItem());
+				tabData.accept(DisavcraftModBlocks.RUBYTILESBLOCK.get().asItem());
 			})
 
 					.build());
@@ -74,6 +75,7 @@ public class DisavcraftModTabs {
 			tabData.accept(DisavcraftModItems.RUBY_PICKAXE.get());
 			tabData.accept(DisavcraftModItems.RUBY_SHOVEL.get());
 			tabData.accept(DisavcraftModItems.RUBY_HOE.get());
+			tabData.accept(DisavcraftModItems.SUN.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

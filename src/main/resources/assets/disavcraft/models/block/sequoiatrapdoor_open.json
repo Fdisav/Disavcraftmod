@@ -4,5 +4,5 @@
     "texture": "disavcraft:block/sequoia_trapdoor",
     "particle": "disavcraft:block/sequoia_trapdoor"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }

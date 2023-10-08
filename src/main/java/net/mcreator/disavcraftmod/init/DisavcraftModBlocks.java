@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.disavcraftmod.block.SunPortalBlock;
 import net.mcreator.disavcraftmod.block.SequoiatrapdoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiadoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiaWoodBlock;
@@ -22,6 +23,7 @@ import net.mcreator.disavcraftmod.block.SequoiaLeavesBlock;
 import net.mcreator.disavcraftmod.block.SequoiaFenceGateBlock;
 import net.mcreator.disavcraftmod.block.SequoiaFenceBlock;
 import net.mcreator.disavcraftmod.block.SequoiaButtonBlock;
+import net.mcreator.disavcraftmod.block.RubytilesblockBlock;
 import net.mcreator.disavcraftmod.block.RubyOreBlock;
 import net.mcreator.disavcraftmod.block.RubyBlockBlock;
 import net.mcreator.disavcraftmod.block.NetheritetilesblockBlock;
@@ -54,4 +56,6 @@ public class DisavcraftModBlocks {
 	public static final RegistryObject<Block> SEQUOIA_PRESSURE_PLATE = REGISTRY.register("sequoia_pressure_plate", () -> new SequoiaPressurePlateBlock());
 	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
 	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
+	public static final RegistryObject<Block> RUBYTILESBLOCK = REGISTRY.register("rubytilesblock", () -> new RubytilesblockBlock());
+	public static final RegistryObject<Block> SUN_PORTAL = REGISTRY.register("sun_portal", () -> new SunPortalBlock());
 }

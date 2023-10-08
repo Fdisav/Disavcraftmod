@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "disavcraft:ruby"
+    },
+    "3": {
+      "item": "disavcraft:ruby"
+    },
+    "4": {
+      "item": "disavcraft:tilesbase"
+    },
+    "5": {
+      "item": "disavcraft:ruby"
+    },
+    "7": {
+      "item": "disavcraft:ruby"
+    }
+  },
+  "result": {
+    "item": "disavcraft:rubytilesblock",
+    "count": 2
+  }
+}

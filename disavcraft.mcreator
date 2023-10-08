@@ -989,17 +989,83 @@
           "src/main/resources/data/disavcraft/loot_tables/chests/loot_table_generic.json"
         ]
       }
+    },
+    {
+      "name": "Rubytilesblock",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytilesblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/blockstates/rubytilesblock.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/RubytilesblockBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/rubytilesblock.json",
+          "src/main/resources/assets/disavcraft/models/item/rubytilesblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubytilesrecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/rubytilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sunland",
+      "type": "biome",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/biome/sunland.json"
+        ]
+      }
+    },
+    {
+      "name": "Sun",
+      "type": "dimension",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/world/teleporter/SunPortalShape.java",
+          "src/main/java/net/mcreator/disavcraftmod/block/SunPortalBlock.java",
+          "src/main/java/net/mcreator/disavcraftmod/world/dimension/SunDimension.java",
+          "src/main/resources/data/disavcraft/dimension/sun.json",
+          "src/main/resources/assets/disavcraft/models/block/sun_portal_ew.json",
+          "src/main/resources/data/disavcraft/dimension_type/sun.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/teleporter/SunTeleporter.java",
+          "src/main/resources/assets/disavcraft/models/item/sun.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/SunItem.java",
+          "src/main/resources/assets/disavcraft/blockstates/sun_portal.json",
+          "src/main/resources/assets/disavcraft/models/block/sun_portal_ns.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
+    "it_it": {
       "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraft.ruby_ore": "Ruby Ore",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
       "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
       "item_group.disavcraft.blocks": "Module-Blocks",
+      "biome.disavcraft.sunland": "Sun land",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
       "block.disavcraft.coaltilesblock": "Coal tiles block",
       "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
@@ -1020,10 +1086,11 @@
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
       "biome.disavcraft.sequoiaforest": " Sequoia forest",
+      "block.disavcraft.rubytilesblock": " Ruby tiles",
       "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
       "item.disavcraft.diamondraw": "Diamond raw",
-      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
+      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraftmod.ruby_axe": "Ruby Axe",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
       "block.disavcraft.irontilesblock": "Iron tiles block",
@@ -1038,6 +1105,61 @@
       "item.disavcraft.rawruby": "Raw ruby",
       "item.disavcraft.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
+      "item.disavcraft.sun": "Sun Pearl",
+      "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
+      "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.sequoia_fence": "Sequoia Fence",
+      "block.disavcraft.ruby_block": "Block of Ruby",
+      "block.disavcraft.sequoiadoor": "Sequoia door",
+      "item_group.disavcraft.piratetab": "Pirates module"
+    },
+    "en_us": {
+      "item.disavcraft.ruby_axe": "Ruby Axe",
+      "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
+      "item_group.disavcraft.blocks": "Module-Blocks",
+      "biome.disavcraft.sunland": "Sun land",
+      "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
+      "block.disavcraft.coaltilesblock": "Coal tiles block",
+      "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
+      "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.sequoia_wood": "Sequoia Wood",
+      "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
+      "block.disavcraft.sequoia_log": "Sequoia Log",
+      "block.disavcraft.sequoia_pressure_plate": "Sequoia Pressure Plate",
+      "item.disavcraft.tilesbase": "Tiles base",
+      "item.disavcraftmod.ruby": "Ruby",
+      "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
+      "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.disavcraft.ruby": "Ruby",
+      "block.disavcraft.sequoia_slab": "Sequoia Slab",
+      "block.disavcraft.sequoia_planks": "Sequoia Planks",
+      "block.disavcraft.goldtilesblock": "Gold tiles block",
+      "block.disavcraftmod.ruby_ore": "Ruby Ore",
+      "item.disavcraft.ruby_sword": "Ruby Sword",
+      "biome.disavcraft.sequoiaforest": " Sequoia forest",
+      "block.disavcraft.rubytilesblock": " Ruby tiles",
+      "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
+      "item.disavcraft.diamondraw": "Diamond raw",
+      "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
+      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
+      "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
+      "block.disavcraft.irontilesblock": "Iron tiles block",
+      "block.disavcraft.sequoia_button": "Sequoia Button",
+      "block.disavcraft.netheritetilesblock": "Netherite tiles block",
+      "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
+      "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "item.disavcraft.ruby_hoe": "Ruby Hoe",
+      "item.disavcraft.hook": "Hook",
+      "item.disavcraftmod.ruby_sword": "Ruby Sword",
+      "item.disavcraft.ruby_shovel": "Ruby Shovel",
+      "item.disavcraft.rawruby": "Raw ruby",
+      "item.disavcraft.ruby_armor_boots": "Ruby Boots",
+      "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
+      "item.disavcraft.sun": "Sun Pearl",
       "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
       "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_fence": "Sequoia Fence",

@@ -14,6 +14,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.disavcraftmod.item.TilesbaseItem;
+import net.mcreator.disavcraftmod.item.SunItem;
 import net.mcreator.disavcraftmod.item.RubySwordItem;
 import net.mcreator.disavcraftmod.item.RubyShovelItem;
 import net.mcreator.disavcraftmod.item.RubyPickaxeItem;
@@ -62,6 +63,8 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
 	public static final RegistryObject<Item> RUBY_ORE = block(DisavcraftModBlocks.RUBY_ORE);
 	public static final RegistryObject<Item> RUBY_BLOCK = block(DisavcraftModBlocks.RUBY_BLOCK);
+	public static final RegistryObject<Item> RUBYTILESBLOCK = block(DisavcraftModBlocks.RUBYTILESBLOCK);
+	public static final RegistryObject<Item> SUN = REGISTRY.register("sun", () -> new SunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
