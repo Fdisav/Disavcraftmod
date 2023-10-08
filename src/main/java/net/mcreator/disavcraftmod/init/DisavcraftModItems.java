@@ -24,6 +24,7 @@ import net.mcreator.disavcraftmod.item.RubyAxeItem;
 import net.mcreator.disavcraftmod.item.RubyArmorItem;
 import net.mcreator.disavcraftmod.item.RawrubyItem;
 import net.mcreator.disavcraftmod.item.HookItem;
+import net.mcreator.disavcraftmod.item.ExapepearlItem;
 import net.mcreator.disavcraftmod.item.DiamondrawItem;
 import net.mcreator.disavcraftmod.DisavcraftMod;
 
@@ -65,6 +66,7 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> RUBY_BLOCK = block(DisavcraftModBlocks.RUBY_BLOCK);
 	public static final RegistryObject<Item> RUBYTILESBLOCK = block(DisavcraftModBlocks.RUBYTILESBLOCK);
 	public static final RegistryObject<Item> SUN = REGISTRY.register("sun", () -> new SunItem());
+	public static final RegistryObject<Item> EXAPEPEARL = REGISTRY.register("exapepearl", () -> new ExapepearlItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

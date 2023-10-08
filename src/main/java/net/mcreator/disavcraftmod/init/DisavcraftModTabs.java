@@ -76,6 +76,7 @@ public class DisavcraftModTabs {
 			tabData.accept(DisavcraftModItems.RUBY_SHOVEL.get());
 			tabData.accept(DisavcraftModItems.RUBY_HOE.get());
 			tabData.accept(DisavcraftModItems.SUN.get());
+			tabData.accept(DisavcraftModItems.EXAPEPEARL.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

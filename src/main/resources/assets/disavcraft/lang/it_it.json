@@ -1,8 +1,8 @@
 {
   "item.disavcraft.ruby_axe": "Ruby Axe",
-  "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
-  "block.disavcraftmod.ruby_block": "Block of Ruby",
   "block.disavcraft.ruby_ore": "Ruby Ore",
+  "block.disavcraftmod.ruby_block": "Block of Ruby",
+  "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
   "item_group.disavcraft.blocks": "Module-Blocks",
   "biome.disavcraft.sunland": "Sun land",
   "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
@@ -21,6 +21,7 @@
   "item.disavcraft.ruby": "Ruby",
   "block.disavcraft.sequoia_slab": "Sequoia Slab",
   "block.disavcraft.sequoia_planks": "Sequoia Planks",
+  "item.disavcraft.exapepearl": "Exape pearl",
   "block.disavcraft.goldtilesblock": "Gold tiles block",
   "block.disavcraftmod.ruby_ore": "Ruby Ore",
   "item.disavcraft.ruby_sword": "Ruby Sword",
