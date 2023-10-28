@@ -1190,82 +1190,110 @@
           "src/main/java/net/mcreator/disavcraftmod/block/Sturdywallverticalstripes2Block.java"
         ]
       }
+    },
+    {
+      "name": "Irongeodes",
+      "type": "feature",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irongeodes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/forge/biome_modifier/irongeodes_biome_modifier.json",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/irongeodes.json",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/irongeodes.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/IrongeodesFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Bigsequoiaforest",
+      "type": "biome",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigsequoiaforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/bigsequoiaforest_tree.json",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/bigsequoiaforest_tree.json",
+          "src/main/resources/data/disavcraft/worldgen/biome/bigsequoiaforest.json"
+        ]
+      }
+    },
+    {
+      "name": "Poket",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/world/inventory/PoketMenu.java",
+          "src/main/java/net/mcreator/disavcraftmod/client/gui/PoketScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenpocketsQuandoIlTastoVienePremuto",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openpockets_quando_il_tasto_viene_premuto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/procedures/OpenpocketsQuandoIlTastoVienePremutoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Openpockets",
+      "type": "keybind",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openpockets",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/network/OpenpocketsMessage.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "it_it": {
-      "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
-      "block.disavcraft.ruby_ore": "Ruby Ore",
-      "item_group.disavcraft.blocks": "Module-Blocks",
-      "biome.disavcraft.sunland": "Sun land",
-      "painting.disavcraft.disav_craft_logo_small.title": "DisavCraft Logo small",
-      "block.disavcraft.sturdywallverticalstripes_1": "Sturdy wall whit blue vertical stripes",
-      "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
-      "block.disavcraft.coaltilesblock": "Coal tiles block",
-      "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
-      "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
-      "block.disavcraft.sturdywallverticalstripes_2": "Sturdy wall pink vertical stripes",
-      "block.disavcraft.sequoia_wood": "Sequoia Wood",
-      "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
-      "block.disavcraft.sequoia_log": "Sequoia Log",
-      "block.disavcraft.sequoia_pressure_plate": "Sequoia Pressure Plate",
-      "item.disavcraft.tilesbase": "Tiles base",
-      "item.disavcraftmod.ruby": "Ruby",
-      "item.disavcraftmod.ruby_armor_chestplate": "Ruby Chestplate",
-      "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
-      "painting.disavcraft.disav_craft_logo.title": "DisavCraft Logo",
-      "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
-      "item.disavcraft.ruby": "Ruby",
-      "block.disavcraft.sequoia_slab": "Sequoia Slab",
-      "block.disavcraft.sequoia_planks": "Sequoia Planks",
-      "item.disavcraft.exapepearl": "Exape pearl",
-      "block.disavcraft.goldtilesblock": "Gold tiles block",
-      "block.disavcraftmod.ruby_ore": "Ruby Ore",
-      "item.disavcraft.ruby_sword": "Ruby Sword",
-      "painting.disavcraft.disav_craft_logo_small.author": "Fdisav",
-      "biome.disavcraft.sequoiaforest": " Sequoia forest",
-      "item_group.disavcraft.universeupdate": "Universe update",
-      "block.disavcraft.rubytilesblock": " Ruby tiles",
-      "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
-      "item.disavcraft.diamondraw": "Diamond raw",
-      "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
-      "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
-      "item.disavcraftmod.ruby_axe": "Ruby Axe",
-      "painting.disavcraft.disav_craft_logo_big.author": "Fdisav",
-      "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
-      "painting.disavcraft.minecraft_painting_1.author": "A random artist",
-      "block.disavcraft.irontilesblock": "Iron tiles block",
-      "block.disavcraft.sequoia_button": "Sequoia Button",
-      "block.disavcraft.netheritetilesblock": "Netherite tiles block",
-      "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
-      "block.disavcraft.diamondtilesblock": "Diamond tiles block",
-      "painting.disavcraft.disav_craft_logo_big.title": "DisavCraft Logo Big",
-      "item.disavcraft.ruby_hoe": "Ruby Hoe",
-      "item.disavcraft.hook": "Hook",
-      "item.disavcraftmod.ruby_sword": "Ruby Sword",
-      "painting.disavcraft.disav_craft_logo.author": "Fdisav",
-      "item.disavcraft.ruby_shovel": "Ruby Shovel",
-      "item.disavcraft.rawruby": "Raw ruby",
-      "item.disavcraft.ruby_armor_boots": "Ruby Boots",
-      "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
-      "item.disavcraft.sun": "Sun Pearl",
-      "painting.disavcraft.minecraft_painting_1.title": "Minecraft Painting",
-      "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
-      "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",
-      "block.disavcraft.sequoia_fence": "Sequoia Fence",
-      "block.disavcraft.ruby_block": "Block of Ruby",
-      "block.disavcraft.sequoiadoor": "Sequoia door",
-      "item_group.disavcraft.piratetab": "Pirates module"
-    },
     "en_us": {
       "item.disavcraft.ruby_axe": "Ruby Axe",
-      "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "biome.disavcraft.bigsequoiaforest": "Big sequoia forest",
       "block.disavcraft.ruby_ore": "Ruby Ore",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
       "item_group.disavcraft.blocks": "Module-Blocks",
       "biome.disavcraft.sunland": "Sun land",
       "painting.disavcraft.disav_craft_logo_small.title": "DisavCraft Logo small",
@@ -1285,6 +1313,7 @@
       "item.disavcraftmod.ruby_shovel": "Ruby Shovel",
       "painting.disavcraft.disav_craft_logo.title": "DisavCraft Logo",
       "item.disavcraft.ruby_armor_chestplate": "Ruby Chestplate",
+      "key.disavcraft.openpockets": "Open pockets",
       "item.disavcraft.ruby": "Ruby",
       "block.disavcraft.sequoia_slab": "Sequoia Slab",
       "block.disavcraft.sequoia_planks": "Sequoia Planks",
@@ -1301,6 +1330,7 @@
       "item.disavcraft.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraftmod.ruby_axe": "Ruby Axe",
+      "gui.disavcraft.poket.label_youre_pocket": "You\u0027re pockets",
       "painting.disavcraft.disav_craft_logo_big.author": "Fdisav",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
       "painting.disavcraft.minecraft_painting_1.author": "A random artist",

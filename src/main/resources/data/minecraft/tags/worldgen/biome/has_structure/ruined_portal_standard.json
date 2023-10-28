@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "disavcraft:sequoiaforest"
+    "disavcraft:sequoiaforest",
+    "disavcraft:bigsequoiaforest"
   ]
 }
