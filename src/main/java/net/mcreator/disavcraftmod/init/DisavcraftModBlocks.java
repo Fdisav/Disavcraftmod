@@ -30,7 +30,15 @@ import net.mcreator.disavcraftmod.block.RubyOreBlock;
 import net.mcreator.disavcraftmod.block.RubyBlockBlock;
 import net.mcreator.disavcraftmod.block.NetheritetilesblockBlock;
 import net.mcreator.disavcraftmod.block.IrontilesblockBlock;
+import net.mcreator.disavcraftmod.block.IrondivisorBlock;
+import net.mcreator.disavcraftmod.block.IroncolonBlock;
+import net.mcreator.disavcraftmod.block.Ironcolon2Block;
+import net.mcreator.disavcraftmod.block.Ironcolon1Block;
 import net.mcreator.disavcraftmod.block.GoldtilesblockBlock;
+import net.mcreator.disavcraftmod.block.GolddivisoriumBlock;
+import net.mcreator.disavcraftmod.block.Golddivisorium2Block;
+import net.mcreator.disavcraftmod.block.GoldcolonBlock;
+import net.mcreator.disavcraftmod.block.Goldcolon1Block;
 import net.mcreator.disavcraftmod.block.EmeraldtilesblockBlock;
 import net.mcreator.disavcraftmod.block.DiamondtilesblockBlock;
 import net.mcreator.disavcraftmod.block.CoaltilesblockBlock;
@@ -62,4 +70,12 @@ public class DisavcraftModBlocks {
 	public static final RegistryObject<Block> SUN_PORTAL = REGISTRY.register("sun_portal", () -> new SunPortalBlock());
 	public static final RegistryObject<Block> STURDYWALLVERTICALSTRIPES_1 = REGISTRY.register("sturdywallverticalstripes_1", () -> new Sturdywallverticalstripes1Block());
 	public static final RegistryObject<Block> STURDYWALLVERTICALSTRIPES_2 = REGISTRY.register("sturdywallverticalstripes_2", () -> new Sturdywallverticalstripes2Block());
+	public static final RegistryObject<Block> IRONDIVISOR = REGISTRY.register("irondivisor", () -> new IrondivisorBlock());
+	public static final RegistryObject<Block> GOLDDIVISORIUM = REGISTRY.register("golddivisorium", () -> new GolddivisoriumBlock());
+	public static final RegistryObject<Block> GOLDDIVISORIUM_2 = REGISTRY.register("golddivisorium_2", () -> new Golddivisorium2Block());
+	public static final RegistryObject<Block> IRONCOLON = REGISTRY.register("ironcolon", () -> new IroncolonBlock());
+	public static final RegistryObject<Block> IRONCOLON_1 = REGISTRY.register("ironcolon_1", () -> new Ironcolon1Block());
+	public static final RegistryObject<Block> IRONCOLON_2 = REGISTRY.register("ironcolon_2", () -> new Ironcolon2Block());
+	public static final RegistryObject<Block> GOLDCOLON_1 = REGISTRY.register("goldcolon_1", () -> new Goldcolon1Block());
+	public static final RegistryObject<Block> GOLDCOLON = REGISTRY.register("goldcolon", () -> new GoldcolonBlock());
 }

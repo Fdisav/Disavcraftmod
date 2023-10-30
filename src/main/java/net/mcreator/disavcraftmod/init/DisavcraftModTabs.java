@@ -39,6 +39,14 @@ public class DisavcraftModTabs {
 				tabData.accept(DisavcraftModBlocks.SEQUOIADOOR.get().asItem());
 				tabData.accept(DisavcraftModBlocks.SEQUOIATRAPDOOR.get().asItem());
 				tabData.accept(DisavcraftModBlocks.RUBYTILESBLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONDIVISOR.get().asItem());
+				tabData.accept(DisavcraftModBlocks.GOLDDIVISORIUM.get().asItem());
+				tabData.accept(DisavcraftModBlocks.GOLDDIVISORIUM_2.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONCOLON.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONCOLON_1.get().asItem());
+				tabData.accept(DisavcraftModBlocks.IRONCOLON_2.get().asItem());
+				tabData.accept(DisavcraftModBlocks.GOLDCOLON_1.get().asItem());
+				tabData.accept(DisavcraftModBlocks.GOLDCOLON.get().asItem());
 			})
 
 					.build());

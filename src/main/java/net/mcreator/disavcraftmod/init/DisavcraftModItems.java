@@ -23,6 +23,7 @@ import net.mcreator.disavcraftmod.item.RubyHoeItem;
 import net.mcreator.disavcraftmod.item.RubyAxeItem;
 import net.mcreator.disavcraftmod.item.RubyArmorItem;
 import net.mcreator.disavcraftmod.item.RawrubyItem;
+import net.mcreator.disavcraftmod.item.PlasticstickItem;
 import net.mcreator.disavcraftmod.item.HookItem;
 import net.mcreator.disavcraftmod.item.ExapepearlItem;
 import net.mcreator.disavcraftmod.item.DiamondrawItem;
@@ -69,6 +70,15 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> EXAPEPEARL = REGISTRY.register("exapepearl", () -> new ExapepearlItem());
 	public static final RegistryObject<Item> STURDYWALLVERTICALSTRIPES_1 = block(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_1);
 	public static final RegistryObject<Item> STURDYWALLVERTICALSTRIPES_2 = block(DisavcraftModBlocks.STURDYWALLVERTICALSTRIPES_2);
+	public static final RegistryObject<Item> IRONDIVISOR = block(DisavcraftModBlocks.IRONDIVISOR);
+	public static final RegistryObject<Item> GOLDDIVISORIUM = block(DisavcraftModBlocks.GOLDDIVISORIUM);
+	public static final RegistryObject<Item> GOLDDIVISORIUM_2 = block(DisavcraftModBlocks.GOLDDIVISORIUM_2);
+	public static final RegistryObject<Item> IRONCOLON = block(DisavcraftModBlocks.IRONCOLON);
+	public static final RegistryObject<Item> IRONCOLON_1 = block(DisavcraftModBlocks.IRONCOLON_1);
+	public static final RegistryObject<Item> IRONCOLON_2 = block(DisavcraftModBlocks.IRONCOLON_2);
+	public static final RegistryObject<Item> GOLDCOLON_1 = block(DisavcraftModBlocks.GOLDCOLON_1);
+	public static final RegistryObject<Item> GOLDCOLON = block(DisavcraftModBlocks.GOLDCOLON);
+	public static final RegistryObject<Item> PLASTICSTICK = REGISTRY.register("plasticstick", () -> new PlasticstickItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

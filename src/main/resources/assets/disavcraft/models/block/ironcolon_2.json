@@ -1,0 +1,9 @@
+{
+  "parent": "disavcraft:custom/iron_colon2",
+  "textures": {
+    "all": "disavcraft:block/iron_block",
+    "particle": "disavcraft:block/iron_block",
+    "1": "disavcraft:block/iron_block"
+  },
+  "render_type": "solid"
+}

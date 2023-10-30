@@ -1,0 +1,9 @@
+{
+  "parent": "disavcraft:custom/iron_divisorium",
+  "textures": {
+    "all": "disavcraft:block/iron_block",
+    "particle": "disavcraft:block/iron_block",
+    "1": "disavcraft:block/iron_block"
+  },
+  "render_type": "solid"
+}

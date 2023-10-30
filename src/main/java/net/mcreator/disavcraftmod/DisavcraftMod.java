@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.disavcraftmod.init.DisavcraftModTabs;
+import net.mcreator.disavcraftmod.init.DisavcraftModParticleTypes;
 import net.mcreator.disavcraftmod.init.DisavcraftModPaintings;
 import net.mcreator.disavcraftmod.init.DisavcraftModMenus;
 import net.mcreator.disavcraftmod.init.DisavcraftModItems;
@@ -62,6 +63,7 @@ public class DisavcraftMod {
 		DisavcraftModFeatures.REGISTRY.register(bus);
 
 		DisavcraftModPaintings.REGISTRY.register(bus);
+		DisavcraftModParticleTypes.REGISTRY.register(bus);
 
 		DisavcraftModMenus.REGISTRY.register(bus);
 	}

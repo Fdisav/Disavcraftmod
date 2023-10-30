@@ -1,0 +1,9 @@
+{
+  "parent": "disavcraft:custom/gold_divisorium2",
+  "textures": {
+    "all": "disavcraft:block/gold",
+    "particle": "disavcraft:block/gold",
+    "1": "disavcraft:block/gold"
+  },
+  "render_type": "solid"
+}
