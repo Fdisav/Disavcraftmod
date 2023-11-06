@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "disavcraft:blue_stone_ore"
+  },
+  "result": "disavcraft:blue_stone_dust"
+}

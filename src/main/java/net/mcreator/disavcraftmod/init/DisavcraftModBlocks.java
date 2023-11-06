@@ -30,6 +30,8 @@ import net.mcreator.disavcraftmod.block.RubytilesblockBlock;
 import net.mcreator.disavcraftmod.block.RubyOreBlock;
 import net.mcreator.disavcraftmod.block.RubyBlockBlock;
 import net.mcreator.disavcraftmod.block.NetheritetilesblockBlock;
+import net.mcreator.disavcraftmod.block.LimoniteOreBlock;
+import net.mcreator.disavcraftmod.block.LimoniteBlockBlock;
 import net.mcreator.disavcraftmod.block.IrontilesblockBlock;
 import net.mcreator.disavcraftmod.block.IrondivisorBlock;
 import net.mcreator.disavcraftmod.block.IroncolonBlock;
@@ -43,6 +45,8 @@ import net.mcreator.disavcraftmod.block.Goldcolon1Block;
 import net.mcreator.disavcraftmod.block.EmeraldtilesblockBlock;
 import net.mcreator.disavcraftmod.block.DiamondtilesblockBlock;
 import net.mcreator.disavcraftmod.block.CoaltilesblockBlock;
+import net.mcreator.disavcraftmod.block.Blue_stoneOreBlock;
+import net.mcreator.disavcraftmod.block.Blue_stoneBlockBlock;
 import net.mcreator.disavcraftmod.DisavcraftMod;
 
 public class DisavcraftModBlocks {
@@ -80,4 +84,8 @@ public class DisavcraftModBlocks {
 	public static final RegistryObject<Block> GOLDCOLON_1 = REGISTRY.register("goldcolon_1", () -> new Goldcolon1Block());
 	public static final RegistryObject<Block> GOLDCOLON = REGISTRY.register("goldcolon", () -> new GoldcolonBlock());
 	public static final RegistryObject<Block> STONEISLANDS_PORTAL = REGISTRY.register("stoneislands_portal", () -> new StoneislandsPortalBlock());
+	public static final RegistryObject<Block> LIMONITE_ORE = REGISTRY.register("limonite_ore", () -> new LimoniteOreBlock());
+	public static final RegistryObject<Block> LIMONITE_BLOCK = REGISTRY.register("limonite_block", () -> new LimoniteBlockBlock());
+	public static final RegistryObject<Block> BLUE_STONE_ORE = REGISTRY.register("blue_stone_ore", () -> new Blue_stoneOreBlock());
+	public static final RegistryObject<Block> BLUE_STONE_BLOCK = REGISTRY.register("blue_stone_block", () -> new Blue_stoneBlockBlock());
 }

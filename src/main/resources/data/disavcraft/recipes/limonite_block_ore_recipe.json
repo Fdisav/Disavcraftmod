@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "disavcraft:limonite_block"
+    }
+  ],
+  "result": {
+    "item": "disavcraft:limonite_ingot",
+    "count": 9
+  }
+}

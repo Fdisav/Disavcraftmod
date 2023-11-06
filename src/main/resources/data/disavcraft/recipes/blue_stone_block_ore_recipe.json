@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "disavcraft:blue_stone_block"
+    }
+  ],
+  "result": {
+    "item": "disavcraft:blue_stone_dust",
+    "count": 9
+  }
+}

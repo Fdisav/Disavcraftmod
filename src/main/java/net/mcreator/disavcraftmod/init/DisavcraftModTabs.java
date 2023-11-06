@@ -47,6 +47,12 @@ public class DisavcraftModTabs {
 				tabData.accept(DisavcraftModBlocks.IRONCOLON_2.get().asItem());
 				tabData.accept(DisavcraftModBlocks.GOLDCOLON_1.get().asItem());
 				tabData.accept(DisavcraftModBlocks.GOLDCOLON.get().asItem());
+				tabData.accept(DisavcraftModBlocks.LIMONITE_ORE.get().asItem());
+				tabData.accept(DisavcraftModBlocks.LIMONITE_BLOCK.get().asItem());
+				tabData.accept(DisavcraftModBlocks.BLUE_STONE_ORE.get().asItem());
+				tabData.accept(DisavcraftModBlocks.BLUE_STONE_BLOCK.get().asItem());
+				tabData.accept(DisavcraftModItems.LIMONITE_INGOT.get());
+				tabData.accept(DisavcraftModItems.BLUE_STONE_DUST.get());
 			})
 
 					.build());
@@ -78,6 +84,7 @@ public class DisavcraftModTabs {
 			tabData.accept(DisavcraftModItems.RUBY_ARMOR_CHESTPLATE.get());
 			tabData.accept(DisavcraftModItems.RUBY_ARMOR_LEGGINGS.get());
 			tabData.accept(DisavcraftModItems.RUBY_ARMOR_BOOTS.get());
+			tabData.accept(DisavcraftModItems.LIMONITE_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -93,6 +100,10 @@ public class DisavcraftModTabs {
 			tabData.accept(DisavcraftModItems.SUN.get());
 			tabData.accept(DisavcraftModItems.EXAPEPEARL.get());
 			tabData.accept(DisavcraftModItems.STONEISLANDS.get());
+			tabData.accept(DisavcraftModItems.LIMONITE_PICKAXE.get());
+			tabData.accept(DisavcraftModItems.LIMONITE_AXE.get());
+			tabData.accept(DisavcraftModItems.LIMONITE_SHOVEL.get());
+			tabData.accept(DisavcraftModItems.LIMONITE_HOE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

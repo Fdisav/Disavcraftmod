@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "disavcraft:block/limonite_ore",
+    "particle": "disavcraft:block/limonite_ore"
+  },
+  "render_type": "solid"
+}

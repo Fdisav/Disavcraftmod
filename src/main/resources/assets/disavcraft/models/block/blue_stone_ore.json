@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "disavcraft:block/blue_stone_ore",
+    "particle": "disavcraft:block/blue_stone_ore"
+  },
+  "render_type": "solid"
+}

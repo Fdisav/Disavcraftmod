@@ -1515,27 +1515,320 @@
           "src/main/java/net/mcreator/disavcraftmod/world/teleporter/StoneislandsTeleporter.java"
         ]
       }
+    },
+    {
+      "name": "LimoniteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/LimoniteIngotItem.java",
+          "src/main/resources/assets/disavcraft/models/item/limonite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/forge/biome_modifier/limonite_ore_biome_modifier.json",
+          "src/main/resources/assets/disavcraft/blockstates/limonite_ore.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/ores/LimoniteOreFeature.java",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/limonite_ore.json",
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/limonite_ore.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/LimoniteOreBlock.java",
+          "src/main/resources/assets/disavcraft/models/block/limonite_ore.json",
+          "src/main/resources/assets/disavcraft/models/item/limonite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/LimoniteBlockBlock.java",
+          "src/main/resources/assets/disavcraft/blockstates/limonite_block.json",
+          "src/main/resources/assets/disavcraft/models/block/limonite_block.json",
+          "src/main/resources/assets/disavcraft/models/item/limonite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/Blue_stoneDustItem.java",
+          "src/main/resources/assets/disavcraft/models/item/blue_stone_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/worldgen/placed_feature/blue_stone_ore.json",
+          "src/main/resources/data/disavcraft/forge/biome_modifier/blue_stone_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/Blue_stoneOreBlock.java",
+          "src/main/java/net/mcreator/disavcraftmod/world/features/ores/Blue_stoneOreFeature.java",
+          "src/main/resources/data/disavcraft/worldgen/configured_feature/blue_stone_ore.json",
+          "src/main/resources/assets/disavcraft/models/item/blue_stone_ore.json",
+          "src/main/resources/assets/disavcraft/blockstates/blue_stone_ore.json",
+          "src/main/resources/assets/disavcraft/models/block/blue_stone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/block/blue_stone_block.json",
+          "src/main/resources/assets/disavcraft/blockstates/blue_stone_block.json",
+          "src/main/java/net/mcreator/disavcraftmod/block/Blue_stoneBlockBlock.java",
+          "src/main/resources/assets/disavcraft/models/item/blue_stone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/blue_stone_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/blue_stone_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blue_stoneOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/blue_stone_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "LimonitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/LimonitePickaxeItem.java",
+          "src/main/resources/assets/disavcraft/models/item/limonite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/limonite_axe.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/LimoniteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/limonite_sword.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/LimoniteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/item/LimoniteShovelItem.java",
+          "src/main/resources/assets/disavcraft/models/item/limonite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/disavcraft/models/item/limonite_hoe.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/LimoniteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LimonitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimoniteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limonite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/disavcraft/recipes/limonite_hoe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.disavcraft.ruby_axe": "Ruby Axe",
       "biome.disavcraft.bigsequoiaforest": "Big sequoia forest",
-      "block.disavcraft.ruby_ore": "Ruby Ore",
-      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "item.disavcraft.ruby_axe": "Ruby Axe",
       "block.disavcraft.sequoia_leaves": "Sequoia Leaves",
+      "block.disavcraftmod.ruby_block": "Block of Ruby",
+      "block.disavcraft.ruby_ore": "Ruby Ore",
       "item_group.disavcraft.blocks": "Module-Blocks",
       "biome.disavcraft.sunland": "Sun land",
       "painting.disavcraft.disav_craft_logo_small.title": "DisavCraft Logo small",
       "block.disavcraft.sturdywallverticalstripes_1": "Sturdy wall whit blue vertical stripes",
+      "item.disavcraft.limonite_sword": "Limonite Sword",
       "item.disavcraftmod.ruby_hoe": "Ruby Hoe",
       "block.disavcraft.coaltilesblock": "Coal tiles block",
       "block.disavcraft.sequoia_fence_gate": "Sequoia Fence Gate",
       "item.disavcraftmod.ruby_armor_helmet": "Ruby Helmet",
       "block.disavcraft.sturdywallverticalstripes_2": "Sturdy wall pink vertical stripes",
       "block.disavcraft.golddivisorium_2": "Gold divisorium",
+      "block.disavcraft.limonite_ore": "Limonite Ore",
       "block.disavcraft.sequoia_wood": "Sequoia Wood",
       "item.disavcraftmod.ruby_armor_leggings": "Ruby Leggings",
       "block.disavcraft.sequoia_log": "Sequoia Log",
@@ -1556,9 +1849,12 @@
       "block.disavcraft.goldcolon_1": "Gold colon",
       "block.disavcraftmod.ruby_ore": "Ruby Ore",
       "item.disavcraft.ruby_sword": "Ruby Sword",
+      "item.disavcraft.limonite_ingot": "Limonite",
+      "item.disavcraft.blue_stone_dust": "Blue_stone",
       "painting.disavcraft.disav_craft_logo_small.author": "Fdisav",
       "biome.disavcraft.sequoiaforest": " Sequoia forest",
       "item_group.disavcraft.universeupdate": "Universe update",
+      "item.disavcraft.limonite_hoe": "Limonite Hoe",
       "block.disavcraft.rubytilesblock": " Ruby tiles",
       "block.disavcraft.sequoiatrapdoor": "Sequoia trapdoor",
       "item.disavcraft.diamondraw": "Diamond raw",
@@ -1566,6 +1862,7 @@
       "block.disavcraft.emeraldtilesblock": "Emerald tiles block",
       "item.disavcraftmod.ruby_axe": "Ruby Axe",
       "gui.disavcraft.poket.label_youre_pocket": "You\u0027re pockets",
+      "block.disavcraft.blue_stone_ore": "Blue_stone Ore",
       "painting.disavcraft.disav_craft_logo_big.author": "Fdisav",
       "item.disavcraft.ruby_armor_helmet": "Ruby Helmet",
       "painting.disavcraft.minecraft_painting_1.author": "A random artist",
@@ -1574,6 +1871,7 @@
       "block.disavcraft.netheritetilesblock": "Netherite tiles block",
       "item.disavcraft.ruby_pickaxe": "Ruby Pickaxe",
       "block.disavcraft.diamondtilesblock": "Diamond tiles block",
+      "item.disavcraft.limonite_shovel": "Limonite Shovel",
       "painting.disavcraft.disav_craft_logo_big.title": "DisavCraft Logo Big",
       "block.disavcraft.goldcolon": "Gold colon",
       "item.disavcraft.ruby_hoe": "Ruby Hoe",
@@ -1584,9 +1882,13 @@
       "item.disavcraft.ruby_shovel": "Ruby Shovel",
       "item.disavcraft.rawruby": "Raw ruby",
       "item.disavcraft.stoneislands": "Stone islands Portal Igniter",
+      "block.disavcraft.limonite_block": "Block of Limonite",
       "item.disavcraft.ruby_armor_boots": "Ruby Boots",
+      "item.disavcraft.limonite_axe": "Limonite Axe",
       "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
+      "block.disavcraft.blue_stone_block": "Block of Blue_stone",
       "item.disavcraft.sun": "Sun Pearl",
+      "item.disavcraft.limonite_pickaxe": "Limonite Pickaxe",
       "painting.disavcraft.minecraft_painting_1.title": "Minecraft Painting",
       "item.disavcraftmod.ruby_pickaxe": "Ruby Pickaxe",
       "item.disavcraftmod.ruby_armor_boots": "Ruby Boots",

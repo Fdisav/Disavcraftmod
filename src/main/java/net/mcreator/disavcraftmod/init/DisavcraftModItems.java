@@ -25,9 +25,16 @@ import net.mcreator.disavcraftmod.item.RubyAxeItem;
 import net.mcreator.disavcraftmod.item.RubyArmorItem;
 import net.mcreator.disavcraftmod.item.RawrubyItem;
 import net.mcreator.disavcraftmod.item.PlasticstickItem;
+import net.mcreator.disavcraftmod.item.LimoniteSwordItem;
+import net.mcreator.disavcraftmod.item.LimoniteShovelItem;
+import net.mcreator.disavcraftmod.item.LimonitePickaxeItem;
+import net.mcreator.disavcraftmod.item.LimoniteIngotItem;
+import net.mcreator.disavcraftmod.item.LimoniteHoeItem;
+import net.mcreator.disavcraftmod.item.LimoniteAxeItem;
 import net.mcreator.disavcraftmod.item.HookItem;
 import net.mcreator.disavcraftmod.item.ExapepearlItem;
 import net.mcreator.disavcraftmod.item.DiamondrawItem;
+import net.mcreator.disavcraftmod.item.Blue_stoneDustItem;
 import net.mcreator.disavcraftmod.DisavcraftMod;
 
 public class DisavcraftModItems {
@@ -81,6 +88,17 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> GOLDCOLON = block(DisavcraftModBlocks.GOLDCOLON);
 	public static final RegistryObject<Item> PLASTICSTICK = REGISTRY.register("plasticstick", () -> new PlasticstickItem());
 	public static final RegistryObject<Item> STONEISLANDS = REGISTRY.register("stoneislands", () -> new StoneislandsItem());
+	public static final RegistryObject<Item> LIMONITE_ORE = block(DisavcraftModBlocks.LIMONITE_ORE);
+	public static final RegistryObject<Item> LIMONITE_BLOCK = block(DisavcraftModBlocks.LIMONITE_BLOCK);
+	public static final RegistryObject<Item> BLUE_STONE_ORE = block(DisavcraftModBlocks.BLUE_STONE_ORE);
+	public static final RegistryObject<Item> BLUE_STONE_BLOCK = block(DisavcraftModBlocks.BLUE_STONE_BLOCK);
+	public static final RegistryObject<Item> LIMONITE_INGOT = REGISTRY.register("limonite_ingot", () -> new LimoniteIngotItem());
+	public static final RegistryObject<Item> BLUE_STONE_DUST = REGISTRY.register("blue_stone_dust", () -> new Blue_stoneDustItem());
+	public static final RegistryObject<Item> LIMONITE_PICKAXE = REGISTRY.register("limonite_pickaxe", () -> new LimonitePickaxeItem());
+	public static final RegistryObject<Item> LIMONITE_AXE = REGISTRY.register("limonite_axe", () -> new LimoniteAxeItem());
+	public static final RegistryObject<Item> LIMONITE_SWORD = REGISTRY.register("limonite_sword", () -> new LimoniteSwordItem());
+	public static final RegistryObject<Item> LIMONITE_SHOVEL = REGISTRY.register("limonite_shovel", () -> new LimoniteShovelItem());
+	public static final RegistryObject<Item> LIMONITE_HOE = REGISTRY.register("limonite_hoe", () -> new LimoniteHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

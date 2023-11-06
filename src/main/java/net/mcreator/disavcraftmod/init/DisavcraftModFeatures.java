@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.disavcraftmod.world.features.ores.RubyOreFeature;
+import net.mcreator.disavcraftmod.world.features.ores.LimoniteOreFeature;
+import net.mcreator.disavcraftmod.world.features.ores.Blue_stoneOreFeature;
 import net.mcreator.disavcraftmod.world.features.SequoiatreeFeature;
 import net.mcreator.disavcraftmod.world.features.RandomhouseFeature;
 import net.mcreator.disavcraftmod.world.features.IrongeodesFeature;
@@ -26,4 +28,6 @@ public class DisavcraftModFeatures {
 	public static final RegistryObject<Feature<?>> SEQUOIATREE = REGISTRY.register("sequoiatree", SequoiatreeFeature::new);
 	public static final RegistryObject<Feature<?>> COALGEODES = REGISTRY.register("coalgeodes", CoalgeodesFeature::new);
 	public static final RegistryObject<Feature<?>> IRONGEODES = REGISTRY.register("irongeodes", IrongeodesFeature::new);
+	public static final RegistryObject<Feature<?>> LIMONITE_ORE = REGISTRY.register("limonite_ore", LimoniteOreFeature::new);
+	public static final RegistryObject<Feature<?>> BLUE_STONE_ORE = REGISTRY.register("blue_stone_ore", Blue_stoneOreFeature::new);
 }
