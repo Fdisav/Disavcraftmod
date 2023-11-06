@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.disavcraftmod.block.SunPortalBlock;
 import net.mcreator.disavcraftmod.block.Sturdywallverticalstripes2Block;
 import net.mcreator.disavcraftmod.block.Sturdywallverticalstripes1Block;
+import net.mcreator.disavcraftmod.block.StoneislandsPortalBlock;
 import net.mcreator.disavcraftmod.block.SequoiatrapdoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiadoorBlock;
 import net.mcreator.disavcraftmod.block.SequoiaWoodBlock;
@@ -78,4 +79,5 @@ public class DisavcraftModBlocks {
 	public static final RegistryObject<Block> IRONCOLON_2 = REGISTRY.register("ironcolon_2", () -> new Ironcolon2Block());
 	public static final RegistryObject<Block> GOLDCOLON_1 = REGISTRY.register("goldcolon_1", () -> new Goldcolon1Block());
 	public static final RegistryObject<Block> GOLDCOLON = REGISTRY.register("goldcolon", () -> new GoldcolonBlock());
+	public static final RegistryObject<Block> STONEISLANDS_PORTAL = REGISTRY.register("stoneislands_portal", () -> new StoneislandsPortalBlock());
 }

@@ -1492,6 +1492,29 @@
           "src/main/java/net/mcreator/disavcraftmod/item/PlasticstickItem.java"
         ]
       }
+    },
+    {
+      "name": "Stoneislands",
+      "type": "dimension",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneislands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/disavcraftmod/block/StoneislandsPortalBlock.java",
+          "src/main/java/net/mcreator/disavcraftmod/world/teleporter/StoneislandsPortalShape.java",
+          "src/main/resources/data/disavcraft/dimension_type/stoneislands.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/dimension/StoneislandsDimension.java",
+          "src/main/resources/data/disavcraft/dimension/stoneislands.json",
+          "src/main/resources/assets/disavcraft/models/block/stoneislands_portal_ew.json",
+          "src/main/resources/assets/disavcraft/models/block/stoneislands_portal_ns.json",
+          "src/main/resources/assets/disavcraft/models/item/stoneislands.json",
+          "src/main/java/net/mcreator/disavcraftmod/item/StoneislandsItem.java",
+          "src/main/resources/assets/disavcraft/blockstates/stoneislands_portal.json",
+          "src/main/java/net/mcreator/disavcraftmod/world/teleporter/StoneislandsTeleporter.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1560,6 +1583,7 @@
       "painting.disavcraft.disav_craft_logo.author": "Fdisav",
       "item.disavcraft.ruby_shovel": "Ruby Shovel",
       "item.disavcraft.rawruby": "Raw ruby",
+      "item.disavcraft.stoneislands": "Stone islands Portal Igniter",
       "item.disavcraft.ruby_armor_boots": "Ruby Boots",
       "block.disavcraft.sequoia_stairs": "Sequoia Stairs",
       "item.disavcraft.sun": "Sun Pearl",

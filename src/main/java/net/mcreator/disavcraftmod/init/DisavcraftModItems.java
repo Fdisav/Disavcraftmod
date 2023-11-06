@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.disavcraftmod.item.TilesbaseItem;
 import net.mcreator.disavcraftmod.item.SunItem;
+import net.mcreator.disavcraftmod.item.StoneislandsItem;
 import net.mcreator.disavcraftmod.item.RubySwordItem;
 import net.mcreator.disavcraftmod.item.RubyShovelItem;
 import net.mcreator.disavcraftmod.item.RubyPickaxeItem;
@@ -79,6 +80,7 @@ public class DisavcraftModItems {
 	public static final RegistryObject<Item> GOLDCOLON_1 = block(DisavcraftModBlocks.GOLDCOLON_1);
 	public static final RegistryObject<Item> GOLDCOLON = block(DisavcraftModBlocks.GOLDCOLON);
 	public static final RegistryObject<Item> PLASTICSTICK = REGISTRY.register("plasticstick", () -> new PlasticstickItem());
+	public static final RegistryObject<Item> STONEISLANDS = REGISTRY.register("stoneislands", () -> new StoneislandsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
